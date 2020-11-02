@@ -1,0 +1,192 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* h1 black*/
+.title-primary {
+  font-size: 80px;
+  line-height: 92px;
+}
+/* h2 medium*/
+.title-secondary {
+  font-size: 65px;
+  line-height: 75px;
+}
+/* p bold 一行說明*/
+.desc-primary {
+  font-size: 24px;
+  line-height: 42px;
+}
+/* p bold 兩行的內文說明*/
+.desc-secondary {
+  font-size: 24px;
+  line-height: 36px;
+}
+/* 中文說明/contact us文字 */
+.desc-ternary {
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.fw-black {
+  font-weight: 900;
+}
+.fw-bold {
+  font-weight: 700;
+}
+.fw-medium {
+  font-weight: 500; 
+}
+
+/* Layout */
+body {
+  text-align: center;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.title-secondary {
+  padding-top: 64px;
+  margin-bottom: 40px;
+}
+/* BANNER */
+.banner {
+  height: 100vh;
+  max-height: 958px;
+  min-height: 550px;
+  background-image: url(https://hexschool.github.io/webLayoutTraining1st/week2/banner.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+.banner span {
+  text-align: left;
+  display: block;
+}
+.banner .title-primary {
+  margin-bottom: 32px;
+}
+.banner .desc-secondary {
+  margin-bottom: 48px;
+}
+.sns-group {
+  width: 283px;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+}
+.sns-group a {
+  display: block;
+}
+.sns-group li {
+  width: 60px;
+  height: 60px;
+}
+.sns-group img {
+  display: block;
+}
+/* ABOUT */
+.avatar {
+  width: 384px;
+  height: 384px;
+  margin-bottom: 24px;
+}
+.about .desc-primary {
+  margin-bottom: 8px;
+}
+.experience-list{
+  width: 384px;
+  border-top: 1px solid #000;
+  padding-top: 24px;
+  margin-top: 24px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.experience-list .desc-secondary {
+  margin-bottom: 24px;
+  position: relative;
+}
+.experience-list .desc-secondary:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background-color: #891818;
+  margin-left: -38px;
+}
+/* MY BRAND */
+.brand {
+  color: #fff;
+  background-color: #000;
+  padding-bottom: 120px;
+}
+.brand .title-secondary{
+  margin-bottom: 16px;
+}
+.brand .desc-primary{
+  margin-bottom: 32px;
+}
+.brand .desc-ternary{
+  margin-bottom: 68px;
+}
+.pics {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.pics img {
+  width: 49%;
+  max-width: 588px;
+  margin-bottom: 40px;
+}
+.pics img:first-child {
+  max-width: 792px;
+  width: 66%;
+}
+/* WORKS */
+.works .title-secondary{
+  margin-bottom: 24px;
+}
+.work-list {
+  margin-top: 56px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.work-item {
+  max-width: 384px;
+  width: 32%;
+  margin-bottom: 56px;
+}
+.work-item img {
+  width: 100%;
+  margin-bottom: 16px;
+}
+.work-item:nth-child(4), .work-item:nth-child(5) {
+  max-width: 588px;
+  width: 49%;
+}
+/* CONTACT */
+.contact {
+  background-color: #000;
+  color: #fff;
+  padding-bottom: 64px;
+}
+.contact .title-secondary {
+  margin-bottom: 16px;
+}
+.contact .desc-secondary {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  margin-bottom: 16px;
+}
